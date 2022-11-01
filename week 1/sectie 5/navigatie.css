@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.boxes {
+margin: 0 auto;
+}
+.home {
+    background-color: green;
+}
+.trainingen {
+    background-color: yellow;
+}
+.Consultancy {
+    background-color: red;
+}
+.timeline {
+    background-color: blue;
+}
+.herders {
+    background-color: yellow;
+}
+.overons {
+    background-color: red;
+}
+.contact {
+    background-color: blue;
+}
+.producten {
+    background-color: blue;
+}
+.tr,th {
+padding: 10px;
+padding-left: 100px;
+padding-right: 100px;
+
+}
