@@ -1,0 +1,17 @@
+.container {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+img {
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+@media (min-width: 600px){
+    img {
+        height: 50%;
+    }
+}
