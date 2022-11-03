@@ -1,17 +1,11 @@
-.container {
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
+
 img {
-    display: flex;
-    height: 400px;
+    height: 350px;
     width: 100%;
 }
-
-@media (min-width: 600px){
+@media (min-width:350px){
     img {
-        height: 50%;
+        height: 25%;
+        max-height: 350px;
     }
 }
