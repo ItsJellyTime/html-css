@@ -1,11 +1,27 @@
-
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 img {
     height: 350px;
     width: 100%;
+    background-attachment: fixed;
 }
-@media (min-width:350px){
-    img {
-        height: 25%;
-        max-height: 350px;
-    }
+.contact {
+    text-align: center;
+    margin: auto;
+    min-width: 420px;
+    top: 50%;
+    background-color: darkblue;
+
 }
+.container {
+    size: 100%;
+}
+.row {
+    width: 100%;
+}
+
