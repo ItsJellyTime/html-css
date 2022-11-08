@@ -15,7 +15,6 @@ img {
     margin: auto;
     min-width: 420px;
     top: 50%;
-    background-color: darkblue;
 
 }
 .container {
@@ -24,4 +23,10 @@ img {
 .row {
     width: 100%;
 }
-
+.button {
+    width: 250px;
+    height: 30px;
+    background-color: darkcyan;
+    text-align: center;
+    cursor: pointer;
+}

@@ -16,7 +16,7 @@
         <form>
         <div class="row">
             <div class="column">
-                <label for="name">Name</label>
+                <label for="name">Naam</label>
                 <input type="text" class="name">
             </div> 
         </div>
@@ -30,20 +30,31 @@
         <br>
         <div class="row">
             <div class="column">
-                <label for="name">Wachtwoord</label>
+                <label for="name">Password</label>
                 <input type="text" class="wachtwoord">
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="column">
-                <label for="geslacht">Geslacht</label>
-                <input type="text" class="geslacht">
-            </div>
-        </div>
-            </form>
+            <label for="geslacht">Geslacht:</label>
 
+<select id="geslacht">
+  <option value="man">Man</option>
+  <option value="saab">Vrouw</option>
+  <option value="geengeslacht">kaas stengel</option>
+  
+</select>
+<br>
+<input type="radio" name="Media" value="Nieuwsbrief">
+<label>Nieuwsbrief</label>
+<br>
+<input type="radio" name="Media" value="Mailing">
+<label>Mailing</label>
+<br>
+<input type="radio" name="Media" value="Post">
+<label>Post</label>
+<br>
+<button class="button" type="button">Stuur me op!</button>
     </div>
+</form>
 </div>
 </body>
 </html>
