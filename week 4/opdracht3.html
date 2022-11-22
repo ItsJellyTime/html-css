@@ -8,24 +8,30 @@
 </head>
 <body>
     <div class="container">
-        <div class="images"></div>
+        <div class="bar">
         <div class="menu">Home</div>
         <div class="menu">Onze diensten</div>
         <div class="menu">Ons team</div>
         <div class="menu">Contact</div>
+    </div>
+        <div class="imagemiddle">
+            <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
+            <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
+            <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
+            <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
+            <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image"> 
+            <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image"> 
+        </div>
         <div class="menu1"></div>
         <div class="menu1"></div>
         <div class="menu1"></div>
         <div class="menu1"></div>
-    <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
-    <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
-    <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
-    <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
-    <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
-    <img src="foto's/AAP_tigersoortinfo_profileA.jpg" class="image">
 </div>
 </body>
 <style>
+    * {
+        margin: 0;
+    }
     .container {
         display: flex;
         flex-wrap: wrap;
@@ -33,22 +39,32 @@
         align-content: center;
         flex-direction: row;
      } 
-.menu {
+.bar {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: green;
+    width: 100%;
+}
+.menu {
         margin: 10px;
         border: 2px solid black;
-        padding-left: 100px;
-        padding-right: 100px;
-        height: 50px;
-
+        padding-left: 125px;
+        padding-right: 125px;
 }
 .image {
     height: 250px;
     width: 400px;
 }
-.menu {
-     background-color: chartreuse;
-}
+.imagemiddle {
+    margin-top: 25px;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: row;
+        }
 </style>
 </html>
