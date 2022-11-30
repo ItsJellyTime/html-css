@@ -22,7 +22,7 @@ div {
     border: 1px solid black;
     overflow: hidden;
   }
-  #first {
+  #een {
     width: 45%;
     float: left;
     border: 1px solid red;
@@ -30,7 +30,7 @@ div {
   ol {
     border: 2px black dotted;
   }
-  #second {
+  #twee {
     width: 50%;
     border: 1px solid green;
     float: left;
