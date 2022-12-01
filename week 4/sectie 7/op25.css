@@ -1,0 +1,46 @@
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.flex1 {
+    background-color: yellow;
+    border: 5px solid green;
+    height:  500px;
+    width: 15%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 500px;
+}
+.flex2{
+    background-color: red;
+    border: 5px solid green;
+    height: 500px;
+    width: 35%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 500px;
+}
+.flex3 {  
+    background-color: blue;
+    border: 5px solid green;
+    height: 500px;
+    width: 35%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 500px;
+}
+.flex4 {
+    background-color: purple;
+    border: 5px solid green;
+    height: 500px;
+    width: 15%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 500px;
+}
