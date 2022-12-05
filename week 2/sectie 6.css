@@ -2,9 +2,9 @@ body {
     background-color: white;
   }
   .container {
-    background-color: red;
     margin-left: 3%;
     margin-top: 2%;
+    background-color: red;
     height: 645px;
     width: 1400px;
   }
